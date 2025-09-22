@@ -24,7 +24,7 @@ Read how to register server to dPanel [here](https://cloud.terpusat.com/docs/id/
    ![create-new-app-set-env.png](assets/create-new-app-set-env.png)
 
 4. Preview application, and click `Deploy` to deploy application.
-   ![create-new-app-preview.png](assets/create-new-app-preview.png)
+   ![create-new-app-deploy.png](assets/create-new-app-deploy.png)
 
 
 
