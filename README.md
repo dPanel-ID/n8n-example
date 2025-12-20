@@ -20,9 +20,6 @@ Read how to register server to dPanel [here](https://cloud.terpusat.com/docs/id/
 2. Input how n8n application build and deploy, select server as well
    ![create-new-app-data.png](assets/create-new-app-data.png)
 
-3. Input env variable if needed, for example change default port (5678) to (3000)
-   ![create-new-app-set-env.png](assets/create-new-app-set-env.png)
-
 4. Preview application, and click `Deploy` to deploy application.
    ![create-new-app-deploy.png](assets/create-new-app-deploy.png)
 
