@@ -1,0 +1,31 @@
+# dPanel application definition for n8n
+version: v0.0.1-alpha.0
+
+setup:
+  language:
+    name: nodejs
+    version: 24.22.3
+
+build:
+  target:
+    machine:
+      workdir: .
+      steps:
+        - name: "Install n8n"
+          command:
+            - ./scripts/build.sh
+        - name: "Create application artifact"
+          archive:
+            - node_modules
+            - scripts
+            - package.json
+            - package-lock.json
+
+run:
+  name: n8n-example
+  description: n8n workflow automation
+  command: ./scripts/start.sh
+  port: 5678
+  environment:
+    - key: PORT
+      value: 5678

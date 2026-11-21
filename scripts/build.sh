@@ -1,3 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
-npm install
+# Install exactly the versions pinned in package-lock.json.
+npm ci --omit=dev
